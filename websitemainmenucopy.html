@@ -1,0 +1,263 @@
+<html>
+<head>
+	<title>Healhty Food you Might Want to Try</title>
+	<style type='text/css'>
+		a:visited{
+			color: black;
+		}
+		a:link{
+			color: black;
+		}
+		a:hover{
+			color: black;
+		}
+		a:active{
+			color: black;
+		}
+		#logo{
+			position: fixed;
+			z-index: 2;
+			padding: 2px;
+			background-color: #C6C6C6;
+			border-radius: 3% / 3%;
+		}	
+		#menubackdrop{
+			position: fixed;
+			top: 0%;
+			left: 0%;
+			z-index: 1;
+			-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   			border-radius:         0%  0%  1%  1%  / 0%   0%   10%  10%;
+		}	
+		#title{
+			position: fixed;
+			z-index: 2;
+			top: 5%;
+			left: 22%;
+			font-size: 35;
+		}
+		#buttonseperateleft{
+			position: fixed;
+			z-index: 11;
+			left: 25%;
+			top: 140px;
+			background-color: black;
+			width: 1px;
+			height: 50px;
+		}
+		#buttonseperatemiddle{
+			position: fixed;
+			z-index: 11;
+			right: 50%;
+			top: 140px;
+			background-color: black;
+			width: 1px;
+			height: 50px;
+		}
+		#buttonseperateright{
+			position: fixed;
+			z-index: 11;
+			right: 25%;
+			top: 140px;
+			background-color: black;
+			width: 1px;
+			height: 50px;
+		}
+		#box1{
+			position: fixed;
+			z-index: 3;
+			left: 0%;
+			top: 140px;
+			width: 25%;
+			height: 50px;
+			-webkit-border-radius: 0px 0px 0px 0px / 108px 108px 72px 72px;
+   			border-radius:         0%  0%  0%  4%  / 12%   12%   12%  25%;
+   			background-color: #C6C6C6;
+		}
+		#box2{
+			position: fixed;
+			z-index: 5;
+			left: 25%;
+			top: 140px;
+			background-color: black;
+			width: 25%;
+			height: 50px;
+   			background-color: #C6C6C6;
+		}
+		#box3{
+			position: fixed;
+			z-index: 7;
+			right: 25%;
+			top: 140px;
+			background-color: black;
+			width: 25%;
+			height: 50px;
+   			background-color: #C6C6C6;
+		}
+		#box4{
+			position: fixed;
+			z-index: 9;
+			right: 0%;
+			top: 140px;
+			background-color: black;
+			width: 25%;
+			height: 50px;
+			-webkit-border-radius: 0px 0px 0px 0px / 108px 108px 72px 72px;
+   			border-radius:         0%  0%  4%  0%  / 12%   12%   25%  12%;
+   			background-color: #C6C6C6;
+		}
+		#box1animation{
+			position: fixed;
+			z-index: 4;
+			-webkit-transition:  width 0.4s ease, height 1s ease;
+			background-color: #9D9D9D;
+			right: 75%;
+			top: 140px;
+			width: 300px;
+			height: 50px;
+			-webkit-border-radius: 0px 0px 0px 0px / 108px 108px 72px 72px;
+   			border-radius:         0%  0%  0%  4%  / 12%   12%   12%  25%;
+		}
+		#box2animation{
+			position: fixed;
+			z-index: 6;
+			-webkit-transition:  width 0.4s ease, height 1s ease;
+			background-color: #9D9D9D;
+			right: 50%;
+			top: 140px;
+			width: 300px;
+			height: 50px;
+		}
+		#box3animation{
+			position: fixed;
+			z-index: 8;
+			-webkit-transition:  width 0.4s ease, height 1s ease;
+			background-color: #9D9D9D;
+			left: 50%;
+			top: 140px;
+			width: 300px;
+			height: 50px;
+		}
+		#box4animation{
+			position: fixed;
+			z-index: 10;
+			-webkit-transition:  width 0.4s ease, height 1s ease;
+			background-color: #9D9D9D;
+			left: 75%;
+			top: 140px;
+			width: 300px;
+			height: 50px;
+			-webkit-border-radius: 0px 0px 0px 0px / 108px 108px 72px 72px;
+   			border-radius:         0%  0%  4%  0%  / 12%   12%   25%  12%;
+		}
+		font.designernames{
+			font-size: 10;
+			font-family: american typewriter;
+		}
+		font.copyright{
+			font-family: american typewriter;
+			font-size: 10;
+		}
+		#designernames1{
+			position: fixed;
+			z-index: 13;
+			right: 5px;
+			top: 5px;
+		}
+		#copyright1{
+			position: fixed;
+			z-index: 13;
+			left: 5px;
+			bottom: 5px;
+		}
+		#button1{
+			position: fixed;
+			z-index: 14;
+			left: 6%;
+			top: 22.2%;
+		}
+		#button2{
+			position: fixed;
+			z-index: 14;
+			left: 31%;
+			top: 22.2%;
+		}
+		#button3{
+			position: fixed;
+			z-index: 14;
+			right: 33%;
+			top: 22.2%;
+		}
+		#button4{
+			position: fixed;
+			z-index: 14;
+			right: 8%;
+			top: 22.2%;
+		}
+		font.button1_{
+			font-family: arial;
+			font-size: 25;
+		}
+		font.paragraph_{
+			font-size: 20;
+			font-family: chalkboard se;
+		}
+		#whiteblackbackground{
+			position: absolute;
+			top: 855px;
+			left: 24%;
+			z-index: -1;
+			background-color: #FF9B00;
+			width: 616px;
+			height: 50px;
+		}
+		#pictureborder{
+			position: absolute;
+			border-color: black;
+			border: 10px;
+			border-width: 20px;
+			border: 3px solid black;
+			top: 54%;
+			left: 24%;
+			width: 610px;
+			height: 532px;
+			z-index: 0;
+		}
+	</style>
+</head>
+<body bgcolor='#DDDDDD'>
+	<font color='black' id='title' face='american typewriter'>Healthy Food You Might Want To Try!</font>
+	<a href=''><img width='90px' id='logo' src='pics/websitelogo.png'></a>
+	<img width='100%' height='190px' id='menubackdrop' src='pics/white.png'>
+	<div id='buttonseperatemiddle'></div>
+	<div id='buttonseperateleft'></div>
+	<div id='buttonseperateright'></div>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitefoodlist.html'><div id='box1' onmouseenter="document.getElementById('box1animation').style.width='0px'" onmouseleave="document.getElementById('box1animation').style.width='300px'"></div></a>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitedrinklist.html'><div id='box2' onmouseenter="document.getElementById('box2animation').style.width='0px'" onmouseleave="document.getElementById('box2animation').style.width='300px'"></div></a>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitequicklist.html'><div id='box3' onmouseenter="document.getElementById('box3animation').style.width='0px'" onmouseleave="document.getElementById('box3animation').style.width='300px'"></div></a>
+	<a href=''><div id='box4' onmouseenter="document.getElementById('box4animation').style.width='0px'" onmouseleave="document.getElementById('box4animation').style.width='300px'"></div></a>
+	<a href='file:///Users/lucaleothiel/Desktop/Websites/websitefoodlist.html'><div id='box1animation' onmouseover="document.getElementById('box1animation').style.width='0px'" onmouseout="document.getElementById('box1animation').style.width='300px'"></div></a>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitedrinklist.html'><div id='box2animation' onmouseover="document.getElementById('box2animation').style.width='0px'" onmouseout="document.getElementById('box2animation').style.width='300px'"></div></a>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitequicklist.html'><div id='box3animation' onmouseover="document.getElementById('box3animation').style.width='0px'" onmouseout="document.getElementById('box3animation').style.width='300px'"></div></a>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitequicklist.html'><div id='box4animation' onmouseover="document.getElementById('box4animation').style.width='0px'" onmouseout="document.getElementById('box4animation').style.width='300px'"></div></a>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitefoodlist.html'><font id='button1' class='button1_' onmouseenter="document.getElementById('box1animation').style.width='0px'" onmouseleave="document.getElementById('box1animation').style.width='300px'">Healthy Food</font></a>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitedrinklist.html'><font id='button2' class='button1_' onmouseenter="document.getElementById('box2animation').style.width='0px'" onmouseleave="document.getElementById('box2animation').style.width='300px'">Healthy Drinks</font></a>
+	<a href='file:///Users/lucaleothiel/Desktop/The World/Websites/websitequicklist.html'><font id='button3' class='button1_' onmouseenter="document.getElementById('box3animation').style.width='0px'" onmouseleave="document.getElementById('box3animation').style.width='300px'">Quick List</font></a>
+	<a href=''><font id='button4' class='button1_' onmouseenter="document.getElementById('box4animation').style.width='0px'" onmouseleave="document.getElementById('box4animation').style.width='300px'">Biography</font></a>
+	<font class='designernames' id='designernames1'>Website Designers: Luca Thiel; James Huang; James Lu</font>
+	<font class='copyright' id='copyright1'>&#169; 2016 Healthy Food</font>
+	<center><div></div></center>
+	<br><br><br><br><br><br><br><br><br><br><br>
+	<font class='paragraph_'><center>Why should people be healthy? Well, it can benefit in a lot of things. For example, health. It can hugely benefit for a lot of diseases, like heart attacks. Heart attacks work like this: When you eat something unhealthy like a burger, all the fat gets stored on the sides of the veins. What does this mean? Well, it means that the more fat you eat, the more fat is stored on the sides of the veins, causing the heart to pump harder and faster to reach all the parts of the body. So, as a result, the heart may fail and that is what causes heart attacks.</font>
+	<br><br>
+	<img height='500px' src='pics/lemon.png' name='lemons'></img>
+	<br>
+	<center><div id='whiteblackbackground'></div></center>
+	<img style="position: relative; z-index:30" id='zindex' height='20' src='pics/buttonblack.png' name='button1' onclick="lemons.src='pics/lemon.png';button1.src='pics/buttonblack.png';button2.src='pics/buttonwhite.png';button3.src='pics/buttonwhite.png';button4.src='pics/buttonwhite.png';button5.src='pics/buttonwhite.png';button6.src='pics/buttonwhite.png';">
+	<img style="position: relative; z-index:30" id='zindex' height='20' src='pics/buttonwhite.png' name='button2' onclick="lemons.src='pics/broccoli.png';button1.src='pics/buttonwhite.png';button2.src='pics/buttonblack.png';button3.src='pics/buttonwhite.png';button4.src='pics/buttonwhite.png';button5.src='pics/buttonwhite.png';button6.src='pics/buttonwhite.png'">
+	<img style="position: relative; z-index:30" id='zindex' height='20' src='pics/buttonwhite.png' name='button3' onclick="lemons.src='pics/2016-10-13.png';button1.src='pics/buttonwhite.png';button2.src='pics/buttonwhite.png';button3.src='pics/buttonblack.png';button4.src='pics/buttonwhite.png';button5.src='pics/buttonwhite.png';button6.src='pics/buttonwhite.png'">
+	<img style="position: relative; z-index:30" id='zindex' height='20' src='pics/buttonwhite.png' name='button4' onclick="lemons.src='pics/healthyheart.png';button1.src='pics/buttonwhite.png';button2.src='pics/buttonwhite.png';button3.src='pics/buttonwhite.png';button4.src='pics/buttonblack.png';button5.src='pics/buttonwhite.png';button6.src='pics/buttonwhite.png'">
+	</center>
+	<div id='pictureborder'></div>
+</body>
+</html>
